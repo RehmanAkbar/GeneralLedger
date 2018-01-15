@@ -1,0 +1,33 @@
+{
+    "name": "softpyramid/generalledger",
+    "description": "General ledger package by Soft Pyramid",
+    "authors": [
+        {
+            "name": "Rehman Akbar",
+            "email": "rehman.akbar@softpyramid.com"
+        }
+    ],
+
+    "require": {
+
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+
+            "Softpyramid\\GeneralLedger\\": "src",
+            "Softpyramid\\GeneralLedger\\Controller\\": "src/Controllers",
+            "Softpyramid\\GeneralLedger\\Models\\": "src/Models",
+            "Softpyramid\\GeneralLedger\\Repositories\\": "src/Repositories",
+            "Softpyramid\\GeneralLedger\\Services\\": "src/Services"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Softpyramid\\GeneralLedger\\GeneralLedgerServiceProvider"
+            ]
+        }
+    }
+}
+

@@ -1,0 +1,6 @@
+@text('name'=>'type','trans'=>'vouchertypes','options'=>['required' => 'required'])
+@text('name'=>'description','trans'=>'vouchertypes','options'=>[])
+@text('name'=>'prepared_by','trans'=>'vouchertypes','options'=>[])
+@text('name'=>'checked_by','trans'=>'vouchertypes','options'=>[])
+@text('name'=>'approved_by','trans'=>'vouchertypes','options'=>[])
+@text('name'=>'accepted_by','trans'=>'vouchertypes','options'=>[])
